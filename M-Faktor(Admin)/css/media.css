@@ -1,0 +1,118 @@
+@media screen and (max-width: 1220px) {
+	.table-container .table-wrap {
+		width: 100% !important;
+	}
+	.news-list__item {
+		display: block
+	}
+	.news .news-right {
+		margin-left: 0;
+		padding: 12px 0;
+	}
+	.guest-list {
+		flex-wrap: wrap;
+	}
+	.guest-list__item {
+		width: 50%;
+	}
+}
+
+@media screen and (max-width: 991px) {
+	.table-wrap {
+		overflow-x: scroll;
+	}
+	.left-block {
+		display: none;
+	}
+	.burger {
+		visibility: visible !important; 
+	}
+}
+@media screen and (max-width: 761px) {
+	.right-block__table .form {
+		text-align: center;
+	}
+	.right-block__table .form a {
+		display: none
+	}
+	.right-block__table .form button {
+		position: static;
+		margin-top: 15px;
+		transform: translate(0);
+	}
+	.right-block__table .title {
+		font-size: 16px;
+		text-align: center;
+	}
+}
+
+@media screen and (max-width: 640px) {
+	.table-container {
+		padding: 0 15px;
+	}
+	.right-block__table {
+		padding: 0 15px;
+	}
+	.right-block .burger {
+		margin-left: 30px;
+	}
+	.news-list__item {
+		padding: 0 15px;
+	}
+	.table-heading {
+		padding: 0 15px;
+	}
+	.right-block__table .form-block {
+		margin: 20px 0;
+	}
+	.right-block__table .form-block input {
+		width: 80%;
+	}
+	.guest-list__item {
+		width: 100%;
+	}
+}
+@media screen and (max-width: 512px) {
+	.table-heading {
+		display: block ;
+	}
+	.btn-group .btn:first-child{
+		margin-left: 0;
+	}
+	.pract .btn-submit {
+		margin-left: 0;
+		margin-top: 15px;
+	}
+	.form-contact {
+		display: block;
+		margin: auto;
+	}
+	.contact-detail {
+		width: auto;
+		margin-top: 30px;
+	}
+	.contact-img {
+		margin: auto;
+	}
+	.contact-detail__pos flex ether div input {
+		display: flex;
+		justify-content: center;
+	}
+	.contact-detail span {
+		width: 10vw;
+	}
+	.contact-detail__pos input, .contact-detail__soc input {
+		min-width: 220px;
+		width: 100%;
+	}
+	.contact-detail__pos div:last-child, .contact-detail__soc div:last-child {
+		width: auto;
+	}
+	.contact-detail__pos div:first-child, .contact-detail__soc div:first-child {
+		width: 100%;
+	}
+	.news-form p {
+		margin-top: 25px;
+		text-align: center;
+	}
+}
